@@ -7,7 +7,6 @@ class BaseModel(models.Model):
     uid = models.UUIDField(primary_key=True, editable=False,default=uuid.uuid4)
     created_at = models.DateField(auto_now_add=True)
     updated_at = models.DateField(auto_now_add=True)
-    user_image = models.ImageField(upload_to="userImg")
     class Meta:
         abstract = True
 

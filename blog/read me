@@ -1,0 +1,26 @@
+Open Postman
+To Register User:-
+ POST :-http://127.0.0.1:8000/api/acount/register/
+To Login User:-
+POST :-http://127.0.0.1:8000/api/acount/login/
+Copy the access token and add it to the authorization
+
+
+To Create a blog:
+POST- http://127.0.0.1:8000/api/home/blog/
+
+Add Form data-
+https://prnt.sc/jDXD65FF-mqj
+
+To Search a Blog:
+GET--http://127.0.0.1:8000/api/home/blog/?search=[blog title]
+
+
+To Update a blog:
+PATCH-http://127.0.0.1:8000/api/home/blog/?search=The bLog title
+https://prnt.sc/vKQQx2FM0uJ_
+
+To Delete a blog:
+DELETE-http://127.0.0.1:8000/api/home/blog/?search=The bLog title
+https://prnt.sc/PASDelmgJ7FS
+
